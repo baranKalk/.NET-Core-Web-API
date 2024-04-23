@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{932FD72B-1F37-4E43-83FB-CDC1AD1DF4B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Core", "Authentication.Core\Authentication.Core.csproj", "{42773E13-B07A-4BD8-B723-2007B131244C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Data", "Authentication.Data\Authentication.Data.csproj", "{743EB477-1AA9-40A2-B1D6-BC73A388703E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Service", "Authentication.Service\Authentication.Service.csproj", "{47B9B76C-B5F8-4B21-9F3B-049347EEA25A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApp1.API", "MiniApp1.API\MiniApp1.API.csproj", "{DEF32463-AA0E-4EDF-9B64-D5988FE4B8BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApp2.API", "MiniApp2.API\MiniApp2.API.csproj", "{1419E302-64DB-47EE-A4A3-74717B765A62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{77DF9958-302A-4768-9066-E128CF376F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932FD72B-1F37-4E43-83FB-CDC1AD1DF4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932FD72B-1F37-4E43-83FB-CDC1AD1DF4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932FD72B-1F37-4E43-83FB-CDC1AD1DF4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932FD72B-1F37-4E43-83FB-CDC1AD1DF4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42773E13-B07A-4BD8-B723-2007B131244C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42773E13-B07A-4BD8-B723-2007B131244C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42773E13-B07A-4BD8-B723-2007B131244C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42773E13-B07A-4BD8-B723-2007B131244C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743EB477-1AA9-40A2-B1D6-BC73A388703E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743EB477-1AA9-40A2-B1D6-BC73A388703E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743EB477-1AA9-40A2-B1D6-BC73A388703E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743EB477-1AA9-40A2-B1D6-BC73A388703E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B9B76C-B5F8-4B21-9F3B-049347EEA25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B9B76C-B5F8-4B21-9F3B-049347EEA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B9B76C-B5F8-4B21-9F3B-049347EEA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B9B76C-B5F8-4B21-9F3B-049347EEA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF32463-AA0E-4EDF-9B64-D5988FE4B8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF32463-AA0E-4EDF-9B64-D5988FE4B8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF32463-AA0E-4EDF-9B64-D5988FE4B8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF32463-AA0E-4EDF-9B64-D5988FE4B8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1419E302-64DB-47EE-A4A3-74717B765A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1419E302-64DB-47EE-A4A3-74717B765A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1419E302-64DB-47EE-A4A3-74717B765A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1419E302-64DB-47EE-A4A3-74717B765A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DF9958-302A-4768-9066-E128CF376F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DF9958-302A-4768-9066-E128CF376F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DF9958-302A-4768-9066-E128CF376F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DF9958-302A-4768-9066-E128CF376F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD299790-127D-4BF4-A987-E0704D36C712}
+	EndGlobalSection
+EndGlobal
